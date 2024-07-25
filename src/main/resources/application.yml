@@ -1,0 +1,31 @@
+#spring.application.name=chatApplication
+
+spring:
+  profiles:
+    active: local
+  jwt:
+    secret: PtjizK0X6NW9tetHcoxTyYAQZSPwcae7SVEOalSd7Ug;
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/chat?serverTimezone=UTC
+    username: shyu
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+websocket:
+  message-broker:
+    application-destination-prefixes: /app
+    user-destination-broadcast: /topic/unresolved-user
+    user-registry-broadcast: /topic/registry
+  stomp:
+    endpoints:
+      /chat-websocket:
+        allowed-origins: "*"
+        with-sockjs: true
