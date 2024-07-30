@@ -18,3 +18,17 @@
 - **Spring Security** : 인증 및 인가 처리
 - **JWT(JSON Web Tokens)** : 안전한 사용자 인증을 위한 토큰 기반 인증 시스템
 - **Thymeleaf** : 서버사이드 템플릿 엔진으로, HTML을 생성하여 동적으로 뷰를 렌더링
+
+## ERD
+![chatApplication](https://github.com/user-attachments/assets/27201400-2b95-4f24-bc82-5d0f195bf5ef)
+
+## 주요화면
+- 로그인 화면 페이지
+  - ![login](https://github.com/user-attachments/assets/4d89ebd5-c9ec-40b3-9ee9-a000da3e469f)
+- 회원 가입 페이지
+  - ![register](https://github.com/user-attachments/assets/83c7424c-c37a-4299-b60e-428ae6023354)
+- 유저 리스트 페이지
+  - ![userlist](https://github.com/user-attachments/assets/bc663163-71e9-4189-9a11-583238ffde7d)
+- 채팅방 페이지
+  - ![chatroom](https://github.com/user-attachments/assets/28b2399c-0fb4-40a4-bca1-8bd27f8387dd)
+
